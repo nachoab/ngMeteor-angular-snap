@@ -7,6 +7,7 @@ Package.on_use(function (api, where) {
 
     // snap files.
     api.add_files("lib/angular-snap.js", "client");
+    api.add_files(["lib/angular-snap.css"], "client");
 
     // Client files.
     api.add_files("init.js", "client");
